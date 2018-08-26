@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Never Use Papyrus</title>
+	<meta name="description" content="Valuable guidelines on how to use Papyrus. Spoiler alert: it's never ok to use Papyrus.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+</head>
+<body>
+	<div class="madeby">
+		<a href="https://github.com/carbonfive" target="blank">Made at C5</a>
+	</div>
+	<div class="quotes">
+		<div class="text quote">When should I use Papyrus?</div>
+		<div class="buttons">
+		  <a href="#" class="btn"><p>Tell me more</p></a>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+			var arr = [
+					 'Never',
+					 'What if I own a restaurant?',
+					 'Not even then',
+					 'How about a spa?',
+					 'Nope',
+					 'What should I use then?',
+					 'Try <a href="https://www.myfonts.com/fonts/linotype/palatino/" target="_blank">Palatino</a>',
+					 'Maybe <a href="https://www.myfonts.com/fonts/itc/mariposa-sans/" target="_blank">Mariposa Sans</a>',
+					 'Or <a href="https://www.fontsquirrel.com/fonts/fanwood" target="_blank">Fanwood</a> can be nice',
+					 'Hey now, I\'m James Cameron!',
+					 'Try <a href="https://www.myfonts.com/fonts/bitstream/baker-signet/" target="_blank">Baker Signet</a>, Mr. Cameron',
+					 'But I want it to look handwritten!',
+					 'Have you tried <a href="http://www.losttype.com/font/?name=buffon" target="_blank">Buffon</a>?',
+					 'Or <a href="http://www.losttype.com/font/?name=lavanderia" target="_blank">Lavanderia</a>, a solid choice!',
+					 '<a href="https://www.google.com/fonts/specimen/Montserrat" target="_blank">Montserrat</a> can be your backup plan',
+					 'So when should I use Papyrus?'
+					];
+			var cnt = 0;
+
+			$(".btn").on('click',function (e) {
+				//alert(arr[cnt]);
+				$(".text").hide();
+				$(".text").html(arr[cnt]).fadeIn(500);
+				cnt++;
+				if (cnt > 15) cnt = 0;
+			});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-45239146-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
