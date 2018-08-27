@@ -78,6 +78,10 @@ body {
   font-size: 70%;
 }
 
+.about-content small {
+  font-size: 70%;
+}
+
 .btn {
   display: inline-block;
   /* top:68%; */
@@ -89,8 +93,7 @@ body {
 }
 
 .btn p {
-  border-bottom: 4px solid rgba(208, 40, 10, 1); /* red */
-  box-shadow: inset 0 -3px 0 rgba(208, 40, 10, 1);
+  color: rgba(208, 40, 10, 1); /* red */
   padding: 5px 2px;
   margin: 0;
   font-size: 16px;
@@ -101,13 +104,11 @@ body {
 }
 
 .btn:hover p {
-  border-bottom: 4px solid rgba(208, 40, 10, .8); /* red */
-  box-shadow: inset 0 -3px 0 rgba(208, 40, 10, .8);
+  color: rgba(208, 40, 10, .8); /* red */
 }
 
 .btn:active p {
-  border-bottom: 4px solid rgba(208, 40, 10, .6);
-  box-shadow: inset 0 -3px 0 rgba(208, 40, 10, .6);
+  color: rgba(208, 40, 10, .6); /* red */
 }
 
 .footer {
