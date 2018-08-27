@@ -16,6 +16,20 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/CNAME.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME.txt",
+		"oF": 0
+		},
 	"\/css\/style-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,9 +52,20 @@
 		},
 	"\/favicon.png": {
 		"ft": 32768,
-		"iS": 14349,
+		"iS": 2608,
 		"oA": 0,
 		"oAP": "\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/gravity.png": {
+		"ft": 32768,
+		"iS": 259034,
+		"oA": 0,
+		"oAP": "\/gravity.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -81,17 +106,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/romanclature.png": {
-		"ft": 32768,
-		"iS": 2608,
-		"oA": 0,
-		"oAP": "\/romanclature.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/romanclature.svg": {
 		"ft": 2097152,
